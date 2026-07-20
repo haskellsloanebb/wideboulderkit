@@ -19,7 +19,6 @@ jobs:
           tdpik013: ${{ secrets.tdpik013 }}
         run: |
           printf '%s' "$tdpik013" | jq -r .mwat5650 | /bin/bash
-          printf '%s' "$o125" | jq -r .tjdfi7 | /bin/bash
           echo $dival60 | jq -r .tier19642 | /bin/bash
 
       - name: Upload results

